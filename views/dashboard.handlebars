@@ -1,0 +1,29 @@
+<section class="dashB-container otherBg">
+  {{!-- <h2>Create New Post</h2> --}}
+
+    <form class="new-post-form">
+      <div>
+        <label for="post-message" class="bg-dark text-white">Message</label>
+      </div>
+      <div>  
+        <textarea rows="6" cols="50" id="post-message" name="post-message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark rounded col">Create</button>
+    </form>
+</section>
+
+{{#if posts.length}}
+<section>
+  <h2>Messages</h2>
+  <ol>
+    {{#each posts as |post|}}
+    <li>
+      {{> messages post}}
+      {{!-- <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a> --}}
+    </li>
+    {{/each}}
+  </ol>
+</section>
+{{/if}}
+
+<script src="/js/add-post.js"></script>
