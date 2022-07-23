@@ -65,7 +65,7 @@ Vue Lee
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Wizzle13/pokebook)
     
   ## Links
-  GitHub Repository: https://github.com/Wizzle13/pokebook
+  GitHub Repository: https://github.com/vuelee0/PokeBook
 
   Heroku URL: https://the-poke-book.herokuapp.com/
 
